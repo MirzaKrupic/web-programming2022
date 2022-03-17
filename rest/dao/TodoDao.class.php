@@ -5,10 +5,10 @@ class TodoDao{
   private $conn;
 
   public function __construct(){
-    $servername = "localhost";
-    $username = "todo";
-    $password = "todo";
-    $schema = "todo";
+    $servername = "sql11.freemysqlhosting.net";
+    $username = "sql11479672";
+    $password = "GheQdY8HS5";
+    $schema = "sql11479672";
     $this->conn = new PDO("mysql:host=$servername;dbname=$schema", $username, $password);
     // set the PDO error mode to exception
     $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
